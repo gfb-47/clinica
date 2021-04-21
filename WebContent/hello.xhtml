@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jpc.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Hello, world!</title>
+</h:head>
+
+<h:body>
+	<h1>Hello, world!</h1>
+	<h:inputText/>
+	<p:inputText value="#{helloController.nome}"/>
+	    <p:panel>
+        <p:outputLabel value="CPF:"/>
+        <p:inputText value="#{pacienteControler.cpf}"/>
+        
+        <p:outputLabel value="Nome:"/>
+         <p:inputText value="#{pacienteControler.nome}"/>
+    </p:panel>
+</h:body>
+	
+</html>
