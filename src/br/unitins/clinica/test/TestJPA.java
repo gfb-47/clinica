@@ -12,9 +12,9 @@ public class TestJPA {
 		EntityManager em = emf.createEntityManager();
 		
 		Paciente paciente = new Paciente();
-		paciente.setId(1);
-		paciente.setCpf("111");
-		paciente.setNome("João");
+//		paciente.setId(1);
+//		paciente.setCpf("111");
+//		paciente.setNome("João");
 		
 		//Iniciando transação
 		em.getTransaction().begin();

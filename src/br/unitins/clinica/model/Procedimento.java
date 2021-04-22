@@ -12,7 +12,7 @@ public class Procedimento extends DefaultEntity<Procedimento> {
 	private static final long serialVersionUID = 1533551325974008917L;
 	
 	private String nome;
-	private Integer numeroSessoes;
+	private Integer numeroSessoes;	
 	private String descricaoPequena;
 	// TODO: Use Duration
 	private Integer duracaoMinutos;
